@@ -1,0 +1,21 @@
+# VIA NAVIGO
+
+This project is an implementation of the Vianavigo application that offers
+a route search on the Parisian rail network (subway)
+
+To start the route search, use this type of syntax :
+
+`python mon_via_navigo.py Station_1 Station_2`
+
+If your station's name have a space (for example "Gare de l'est")
+please use '_' to separate the words (so you have "Gare_de_l*est")
+
+`python mon_via_navigo.py Blanche Gare_de_l*est`
+
+## Python 2 & 3
+
+- use Python 2.7 in order to get the plot of the map
+
+## Licence
+
+- MIT
